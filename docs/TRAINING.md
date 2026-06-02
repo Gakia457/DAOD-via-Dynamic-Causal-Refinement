@@ -60,7 +60,7 @@ MODEL:
     NAME: "build_clip_resnet_fpn_backbone"
 ```
 
-The `regionclip_finetuned-coco_rn50_fpn.pth` weight is converted by us. Download link: [TODO](<REGIONCLIP_WEIGHT_DOWNLOAD_URL>).
+The `regionclip_finetuned-coco_rn50_fpn.pth` weight is converted by us. [`download link`](https://github.com/Gakia457/DAOD-via-Dynamic-Causal-Refinement/releases/download/RegionCLIP-init/regionclip_finetuned-coco_rn50_fpn.pth).
 
 ## Common knobs
 

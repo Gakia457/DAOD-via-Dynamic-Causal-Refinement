@@ -18,7 +18,7 @@ Official codebase for [Domain Adaptive Object Detection via Dynamic Causal Refin
 **1. Clone this repository.**
 
 ```bash
-git clone <REPO_URL>
+git clone https://github.com/Gakia457/DAOD-via-Dynamic-Causal-Refinement.git
 cd Dynamic-Casual-Refinement
 ```
 
@@ -82,7 +82,7 @@ If you use **RegionCLIP** initialization, the robust-start configs expect this c
 ./models/regionclip_finetuned-coco_rn50_fpn.pth
 ```
 
-We provide a converted checkpoint here: [`download link`](<REGIONCLIP_WEIGHT_DOWNLOAD_URL>).
+We provide a converted checkpoint here: [`download link`](https://github.com/Gakia457/DAOD-via-Dynamic-Causal-Refinement/releases/download/RegionCLIP-init/regionclip_finetuned-coco_rn50_fpn.pth).
 
 If you want to customize training, use the following structure:
 
@@ -137,14 +137,14 @@ python tools/train_net.py --eval-only \
 
 ## Reference
 
-If you find this work useful, please cite: `TODO`
+If you find this work useful, please cite (temporarily unavailable):
 
 ```bibtex
-@article{<CITATION_KEY>,
-  title={<PAPER_TITLE>},
-  author={<AUTHORS>},
-  journal={<VENUE>},
-  year={<YEAR>},
-  url={<PAPER_URL>}
+@article{dcr_icml26,
+  title={Domain Adaptive Object Detection via Dynamic Causal Refinement},
+  author={},
+  journal={},
+  year={2026},
+  url={}
 }
 ```
