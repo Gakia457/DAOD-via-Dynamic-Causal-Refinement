@@ -1,0 +1,12 @@
+_BASE_: "./DCR-Cityscapes-to-BDD100K.yaml"
+MODEL:
+  WEIGHTS: "output/bdd100k/robust_start/regionclip_fpn/bdd100k_val_daytime_model_best.pth"
+  BACKBONE:
+    NAME: "build_clip_resnet_fpn_backbone"
+  PIXEL_STD: [57.375, 57.12, 58.395]
+SOLVER:
+  CLIP_GRADIENTS:
+    CLIP_TYPE: "norm"
+    ENABLED: True
+OUTPUT_DIR: "output/bdd100k/dcr/regionclip_fpn/"
+

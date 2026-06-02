@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dcr"
+version = "1.0.0"
+description = "Domain Adaptive Object Detection via Dynamic Causal Refinement"
+readme = "README.md"
+authors = [
+  { name="huangjiaqi", email="2633320324@qq.com" },
+  { name="mazeyu", email="none" }
+]
+dependencies = [
+    "pillow==9.5.0", # see: https://github.com/facebookresearch/detectron2/issues/5010
+    "numpy==1.26.3",
+    "scipy",
+    "opencv-python==4.8.1.78",
+    "detectron2 @ git+https://github.com/facebookresearch/detectron2.git",
+    "timm",
+]
+
+[project.urls]
+Homepage = "https://github.com/huangjiaqi/Dynamic-Causal-Refinement"
+Issues = "https://github.com/huangjiaqi/Dynamic-Causal-Refinement/issues"
+
+[tool.setuptools.packages.find]
+include = ["dcr", "dcr.*"]

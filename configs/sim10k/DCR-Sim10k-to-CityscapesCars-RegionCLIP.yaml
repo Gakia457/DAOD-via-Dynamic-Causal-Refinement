@@ -1,0 +1,12 @@
+_BASE_: "./DCR-Sim10k-to-CityscapesCars.yaml"
+MODEL:
+  WEIGHTS: "output/sim10k/robust_start/regionclip_fpn/cityscapes_cars_val_model_best.pth"
+  BACKBONE:
+    NAME: "build_clip_resnet_fpn_backbone"
+  PIXEL_STD: [57.375, 57.12, 58.395]
+SOLVER:
+  CLIP_GRADIENTS:
+    CLIP_TYPE: "norm"
+    ENABLED: True
+OUTPUT_DIR: "output/sim10k/dcr/regionclip_fpn/"
+
