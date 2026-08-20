@@ -137,14 +137,12 @@ python tools/train_net.py --eval-only \
 
 ## Reference
 
-If you find this work useful, please cite (temporarily unavailable):
+If you find this work useful, please cite:
 
 ```bibtex
-@article{dcr_icml26,
+@inproceedings{madomain,
   title={Domain Adaptive Object Detection via Dynamic Causal Refinement},
-  author={},
-  journal={},
-  year={2026},
-  url={}
+  author={Ma, Zeyu and Huang, Jiaqi and Qin, Yitong and Ziqiang, Zheng and Wei, Jiwei and Zou, Jie and Yang, Yang and Shen, Heng Tao},
+  booktitle={Forty-third International Conference on Machine Learning}
 }
 ```
